@@ -1,6 +1,6 @@
 {
   "name": "react-intl",
-  "version": "2.7.2",
+  "version": "2.7.2-mames.1",
   "description": "Internationalize React apps. This library provides React components and an API to format dates, numbers, and strings, including pluralization and handling translations.",
   "keywords": [
     "intl",
@@ -143,7 +143,6 @@
     "test:perf": "cross-env NODE_ENV=production babel-node test/perf",
     "examples:install": "babel-node scripts/examples npm install",
     "examples:link": "npm link && babel-node scripts/examples npm link react-intl",
-    "preversion": "npm run clean && npm run build && npm run test:all",
-    "prepare": "npm run clean && npm run build"
+    "preversion": "npm run clean && npm run build && npm run test:all"
   }
 }
